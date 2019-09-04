@@ -1,4 +1,4 @@
-import ui.UIMenu;
+import static ui.UIMenu.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,6 +11,6 @@ public class Main {
 
         doc1.showId();
 
-        UIMenu.showMenu();
+        showMenu();
     }
 }
