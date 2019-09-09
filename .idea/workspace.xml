@@ -6,10 +6,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/MyMedicalAppointments/Doctor$AvailableAppointment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyMedicalAppointments/Doctor$AvailableAppointment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyMedicalAppointments/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyMedicalAppointments/Doctor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyMedicalAppointments/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyMedicalAppointments/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyMedicalAppointments/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyMedicalAppointments/Patient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Doctor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patient.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
