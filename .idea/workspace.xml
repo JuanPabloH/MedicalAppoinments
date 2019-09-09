@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e569a2b7-1c0a-42c5-8a69-59ac30f084c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyMedicalAppointments/Doctor$AvailableAppointment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyMedicalAppointments/Doctor$AvailableAppointment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyMedicalAppointments/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyMedicalAppointments/Doctor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyMedicalAppointments/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyMedicalAppointments/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Doctor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/UIMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/UIMenu.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
