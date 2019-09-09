@@ -1,8 +1,8 @@
 package model;
 
-public class Nurse extends User {
+public class Nurse extends User{
 
-    private  String speciality;
+    private String speciality;
 
     public Nurse(String name, String email) {
         super(name, email);
@@ -10,9 +10,10 @@ public class Nurse extends User {
 
     @Override
     public void showDataUser() {
-        System.out.println("Empleado del Hospital: Cruz verde");
-        System.out.println("Dpto: Nutriología");
+        System.out.println("Empleado del Hospital: Cruz Verde");
+        System.out.println("Departamentos: Nutriología, Pediatría");
     }
+
 
     public String getSpeciality() {
         return speciality;

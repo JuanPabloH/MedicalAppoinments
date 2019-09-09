@@ -3,8 +3,7 @@ package model;
 import java.util.Date;
 
 public class AppointmentDoctor implements ISchedulable {
-
-    private  int id;
+    private int id;
     private Patient patient;
     private Doctor doctor;
     private Date date;
@@ -48,7 +47,7 @@ public class AppointmentDoctor implements ISchedulable {
     }
 
     public String getTime() {
-        return time+" hrs.";
+        return time + " hrs.";
     }
 
     public void setTime(String time) {
@@ -57,7 +56,7 @@ public class AppointmentDoctor implements ISchedulable {
 
     @Override
     public void schedule(Date date, String time) {
-        this.date=date;
-        this.time=time;
+        this.date = date;
+        this.time = time;
     }
 }

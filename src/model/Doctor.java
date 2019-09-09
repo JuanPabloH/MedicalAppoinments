@@ -6,10 +6,9 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class Doctor extends User {
-    //Atributos
-    private ArrayList<AvailableAppointment> availableAppointments= new ArrayList<>();
+    //Atributo
     private String speciality;
-
+    private ArrayList<AvailableAppointment> availableAppointments = new ArrayList<>();
 
     public Doctor(String name, String email){
         super(name,email);
@@ -23,44 +22,41 @@ public class Doctor extends User {
         this.speciality = speciality;
     }
 
-    //Comportamientos
-
 
 
     public void addAvailableAppointment(String date, String time){
-
-        availableAppointments.add(new AvailableAppointment(date, time));
+        availableAppointments.add(new Doctor.AvailableAppointment(date,time));
     }
 
     public ArrayList<AvailableAppointment> getAvailableAppointments(){
-        return  availableAppointments;
+        return availableAppointments;
     }
-
 
     @Override
     public String toString() {
-        return super.toString()+"\nSpeciality: "+speciality+"\nAvailable: "+ availableAppointments.toString();
+        return super.toString() + "\nSpeciality: " + speciality + "\nAvailable: " + availableAppointments.toString();
     }
 
     @Override
     public void showDataUser() {
-        System.out.println("Empleado del Hospital: Cruz Roja");
-        System.out.println("Depto: cancerología");
+        System.out.println("Empleado del Hospital: CRuz Roja");
+        System.out.println("Departamento: Cancerología");
     }
 
-    public  static class AvailableAppointment{
-        private  int id;
+
+    public static class AvailableAppointment{
+        private int id;
         private Date date;
         private String time;
-        SimpleDateFormat format= new SimpleDateFormat("dd/MM/yyyy");
+        SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
 
-        public AvailableAppointment(String date, String time){
+        public AvailableAppointment(String date, String time) {
             try {
-                this.date=format.parse(date);
+                this.date = format.parse(date);
             } catch (ParseException e) {
                 e.printStackTrace();
             }
-            this.time=time;
+            this.time = time;
         }
 
         public int getId() {
@@ -76,9 +72,10 @@ public class Doctor extends User {
         }
 
         public String getDate() {
-
             return format.format(date);
         }
+
+
 
         public void setDate(Date date) {
             this.date = date;
@@ -92,12 +89,11 @@ public class Doctor extends User {
             this.time = time;
         }
 
+
         @Override
         public String toString() {
-            return "Available Appointments \nDate: "+date+"\nTime: "+time;
+            return "Available Appointments \nDate: " +date+ "\nTime: " + time;
         }
     }
-
-
 
 }
