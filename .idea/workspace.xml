@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e569a2b7-1c0a-42c5-8a69-59ac30f084c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/UIMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/UIMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/UIDoctorMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/UIDoctorMenu.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
