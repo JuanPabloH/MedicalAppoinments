@@ -1,6 +1,6 @@
 package model;
 
-public class User {
+public abstract class User {
 
 
     private int id = 0; //Autoincrement
@@ -63,4 +63,6 @@ public class User {
         return "model.User: "+ name+" ,Email: "+ email+
                 "\nAddress: "+address+". Phone: "+phoneNumber;
     }
+
+    public abstract  void showDataUser();
 }
