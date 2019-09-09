@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
         //showMenu();
-        Doctor myDoctor = new Doctor("Anahí Salgado", "Pediatria");
+        Doctor myDoctor = new Doctor("Anahí Salgado", "anahi@gmail.com");
         myDoctor.addAvailableAppointment(new Date(), "4pm");
         myDoctor.addAvailableAppointment(new Date(), "10am");
         myDoctor.addAvailableAppointment(new Date(), "1pm");
@@ -15,5 +15,9 @@ public class Main {
             System.out.println(aA.getDate() + "  " + aA.getTime());
         }
 
+        Patient patient= new Patient("Juan Herrera","juan@gmail.com");
+
+        System.out.println(myDoctor);
+        System.out.println(patient);
     }
 }
