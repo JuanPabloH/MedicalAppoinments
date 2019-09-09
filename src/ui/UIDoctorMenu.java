@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class UIDoctorMenu {
 
-    public ArrayList<Doctor> doctorsAvailableAppointments= new ArrayList<>();
+    public static ArrayList<Doctor> doctorsAvailableAppointments= new ArrayList<>();
     public  static void showDoctorMenu(){
         int response= 0;
         do {
@@ -20,6 +20,8 @@ public class UIDoctorMenu {
             response= Integer.valueOf(sc.nextLine());
             switch (response){
                 case 1:
+                    showAddAvailableAppointmentsMenu();
+
                     break;
                 case 2:
                     break;
@@ -31,7 +33,7 @@ public class UIDoctorMenu {
         }while (response!=0);
     }
 
-    private  void showAddAvailableAppointmentsMenu(){
+    private static  void showAddAvailableAppointmentsMenu(){
         int response=0;
         do{
             System.out.println();
@@ -48,7 +50,7 @@ public class UIDoctorMenu {
 
             if (response>0 && response<4){
                 int monthSelected=response;
-                System.out.println(monthSelected+" . "+ UIMenu.MONTHS[monthSelected]);
+                System.out.println(monthSelected+" . "+ UIMenu.MONTHS[monthSelected-1]);
                 System.out.println("Insert the date available: [dd/mm/yyyy]");
                 String date= sc.nextLine();
                 System.out.println("Your date is: "+ date+"\n1. Correct\n2. Change Date");
@@ -76,7 +78,7 @@ public class UIDoctorMenu {
 
     }
 
-    private void  checkDoctorAvailableAppointment(Doctor doctor){
+    private static void checkDoctorAvailableAppointment(Doctor doctor){
         if (doctor.getAvailableAppointments().size()>0
             && !doctorsAvailableAppointments.contains(doctor)){
             doctorsAvailableAppointments.add(doctor);
